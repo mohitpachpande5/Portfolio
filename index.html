@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    
+    <title>My Portfolio</title>
+</head>
+<body>
+    <nav id="desk-nav">
+        <div class="logo">Mohit Vikas Pachpande</div>
+        <div>
+            <ul class="nav-link">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="mobile-nav">
+        <div class="logo">Mohit Vikas Pachpande</div>
+        <div class="ham-menu">
+            <div class="ham-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-link">
+                <li><a href="#about" onclick="toggleMenu()">About Me</a></li>
+                <li><a href="#project" onclick="toggleMenu()">Project</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>    
+    </nav>
+    <section id="profile">
+        <div class="section_pic-container">
+            <img src="assets/avatar-1.png" alt="">
+        </div>
+        <div class="section_text">
+            <p class="section_text_p1"> Hello, I'm</p>
+            <h1 class="title"> Mohit Vikas Pachpande</h1>
+            <p class="section_text_p2"> Full Stack Developer </p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/CV.pdf')">
+                    Download CV
+                </button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                    Contact Info
+                </button>
+            </div>
+            <div id="social-container">
+                <img src="./assets/linkedin.png" alt="My Linkedin Profile" 
+                class="icon" onclick="location.href='https://www.linkedin.com/in/mohit-pachpande-0b242128b/'">
+                <img src="./assets/github.png" alt="My Github Profile" 
+                class="icon" onclick="location.href='https://github.com/mohitpachpande5'">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section_text_p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <!-- <div class="section-container">
+            <img src="./assets/avatar-1.png" alt="about-pic">
+        </div> -->
+        <div class="about-detail-container">
+            <div class="about-container">
+                <div class="detail-container">
+                    <img src="./assets/education.png" alt="education icon" class="icon">
+                    <h3> Education</h3>
+                    <p>B.E Bachelors Degree</p>
+                    
+                </div>
+                <div class="detail-container">
+                    <img src="./assets/experience.png" alt="experience icon" class="icon">
+                    <h3> Experience</h3>
+                    <p>Fresher<br> Full Stack Java Devlopment</p>
+                </div>
+            </div>
+            <div class="text-container">
+                    <h1 class="about-head">Mohit Vikas Pachpande</h1>
+                    <p>
+                      I am Mohit Vikas Pachpande, a dedicated Full Stack Developer skilled in React, Node.js, Java, and Spring Boot. 
+                      With a strong foundation in both front-end and back-end technologies, I enjoy building scalable, efficient, and user-friendly applications. 
+                      My expertise lies in designing RESTful APIs, developing dynamic UIs, and optimizing database performance. 
+                      I am passionate about continuous learning and solving real-world problems through technology.
+                    </p>
+                
+                    <div class="section">
+                      <h2  class="about-head">What I Do</h2>
+                      <ul>
+                        <li>Front-End Development – I create responsive and interactive user interfaces using React.js, JavaScript, HTML, and CSS, ensuring seamless user experiences across devices.</li>
+                        <li>Back-End Development – I develop powerful server-side applications using Node.js, Express.js, Java, and Spring Boot, focusing on secure and high-performance RESTful APIs.</li>
+                        <li>Database Management – I work with both SQL (MySQL, PostgreSQL) and NoSQL (MongoDB) databases, optimizing queries and designing scalable architectures.</li>
+                        <li>Problem Solving & Optimization – I enjoy debugging, refactoring, and optimizing code to improve efficiency and performance.</li>
+                        <li>Continuous Learning & Collaboration – I explore new technologies, collaborate with teams, and stay up-to-date with the latest trends.</li>
+                      </ul>
+                    </div>
+                
+                    <div class="section">
+                      <h2  class="about-head">Technical Skills</h2>
+                      <ul class="skills">
+                        <li>Languages: JavaScript, Java, TypeScript</li>
+                        <li>Frontend: React.js, Redux, HTML5, CSS3, Bootstrap</li>
+                        <li>Backend: Node.js, Java, Spring Boot</li>
+                        <li>Databases: MongoDB, MySQL, PostgreSQL</li>
+                        <li>DevOps & Tools: Git, Postman, AWS Basics</li>
+                        <li>Methodologies: RESTful API Development</li>
+                      </ul>
+                    </div>
+                
+                    <div class="section">
+                      <h2  class="about-head">My Mission</h2>
+                      <p>
+                        I believe in leveraging technology to solve real-world problems, streamline workflows, and create impactful digital experiences. 
+                        My goal is to develop high-quality, scalable, and secure applications that make a difference. 
+                        Whether it's developing a sleek front-end, optimizing backend performance, or ensuring seamless database interactions, 
+                        I take pride in every aspect of the development process.
+                      </p>
+                    </div>
+            </div>
+        </div>
+        <!-- <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./experience'"> -->
+    </section>
+    <section id="experience">
+        <p class="section_text_p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-detail-container">
+            <div class="about-container">
+                <div class="detail-container">
+                    <h2 class="experience-sub-title">Full Stack Java Devlopment</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Bootstrap</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Tailwind</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>React</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="detail-container">
+                    <h2 class="experience-sub-title">Backend Devlopment</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>SQL</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Java</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Spring Boot</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Git</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="project">
+        <p class="section_text_p1">Browse My Recent</p>
+        <h1 class="title">Project</h1>
+        <div class="experience-detail-container">
+            <div class="about-container">
+                <div class="detail-container col-container">
+                    <div class="article-container">
+                        <img src="./assets/1.jpg" alt="Project 1" class="project-img">
+                        <h2 class="exprience-sub-title project-title">Donation  Collector</h2>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/mohitpachpande5/Donation_Code'">
+                                Github
+                            </button>
+                            <button class="btn btn-color-2 project-btn" onclick="location.href=''">
+                                Live Demo
+                            </button>       
+                        </div>
+                    </div>
+                </div>
+                <div class="detail-container col-container">
+                    <div class="article-container">
+                        <img src="./assets/2.jpg" alt="Project 2" class="project-img">
+                        <h2 class="exprience-sub-title project-title">Employee Management</h2>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/mohitpachpande5/Employee-API'">
+                                Github
+                            </button>
+                            <button class="btn btn-color-2 project-btn" onclick="location.href=''">
+                                Live Demo
+                            </button>       
+                        </div>
+                    </div>
+                </div>
+                <div class="detail-container col-container">
+                    <div class="article-container">
+                        <img src="./assets/3.jpg" alt="Project 3" class="project-img">
+                        <h2 class="exprience-sub-title project-title">Online Bookshop</h2>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/mohitpachpande5/OnlineBookShop'">
+                                Github
+                            </button>
+                            <button class="btn btn-color-2 project-btn" onclick="location.href=''">
+                                Live Demo
+                            </button>       
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </section>
+    <section id="contact">
+        <p class="section_text_p1">Get In Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="email icon" class="icon contact-icon">
+                <p> <a href="mailto:mohitpachpande5@gmail.com"></a>Email</p>
+            </div> 
+            
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png" alt="Linkedin icon" class="icon contact-icon">
+                <p> <a href="https://www.linkedin.com/in/mohit-pachpande-0b242128b/"></a>Linkedin </p>
+            </div>
+            
+            <div class="contact-info-container">
+                <img src="./assets/github.png" alt="Github icon" class="icon contact-icon">
+                <p> <a href="https://github.com/mohitpachpande5"></a> Github </p>
+            </div>         
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-link-container">
+                <ul class="nav-link">
+                    <li><a class="about-head" href="#about">About Me</a></li>
+                    <li><a class="about-head" href="#experience">Experience</a></li>
+                    <li><a class="about-head" href="#project">Project</a></li>
+                    <li><a class="about-head" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2023 Mohit Vikas Pachpande All Right Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
