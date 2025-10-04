@@ -47,10 +47,6 @@ The website is static (no backend) and can be easily hosted on GitHub Pages, Net
 
 ## 📂 Folder Structure
 
-
-
-## 📂 Folder Structure
-
 ```
 
 Portfolio/
@@ -141,6 +137,7 @@ in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software.
 ```
+
 
 
 
