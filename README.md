@@ -143,14 +143,4 @@ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software.
 ```
 
----
 
-⭐ **If you like this project, give it a star on GitHub!**
-👉 [https://github.com/mohitpachpande5/Portfolio](https://github.com/mohitpachpande5/Portfolio)
-
-```
-
----
-
-Would you like me to **add a “Live Demo” section** too (with a link to your hosted portfolio if it’s deployed on GitHub Pages or Netlify)? I can include that next.
-```
