@@ -1,8 +1,3 @@
-
-
----
-
-```md
 # 🌐 Mohit Pachpande – Portfolio
 
 A simple and responsive portfolio website built using **HTML**, **CSS**, and **JavaScript**, designed to showcase your projects, skills, and achievements.
@@ -49,6 +44,10 @@ The website is static (no backend) and can be easily hosted on GitHub Pages, Net
 - **Deployment:** GitHub Pages or Netlify  
 
 ---
+
+## 📂 Folder Structure
+
+
 
 ## 📂 Folder Structure
 
@@ -142,5 +141,6 @@ in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software.
 ```
+
 
 
